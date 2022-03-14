@@ -20,6 +20,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 
     //dataBinding {
     //    enabled = true
@@ -27,6 +31,9 @@ android {
     //}
     buildFeatures {
         dataBinding true
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
     }
 }
 
@@ -61,6 +68,9 @@ dependencies {
     // AndroidX Test - Instrumented testing
     androidTestImplementation "androidx.test.ext:junit:$androidXTestExtKotlinRunnerVersion"
     androidTestImplementation "androidx.test.espresso:espresso-core:$espressoVersion"
+
+    // Hamcrest Framework - assertions more like English sentences
+    testImplementation "org.hamcrest:hamcrest-all:$hamcrestVersion"
 
     // Kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion"
