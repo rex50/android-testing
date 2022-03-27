@@ -1,4 +1,4 @@
-TO-DO Notes - Code for 5.1-5.3 Testing Codelab
+TO-DO Notes - To learn unit and instrumentation testing in Android
 ============================================================================
 
 Code for the Advanced Android Kotlin Testing Codelab 5.1-5.3
@@ -13,7 +13,7 @@ You can then mark them as completed or not, filter them and delete them.
 
 This codelab has four branches, representing different code states:
 
-* [starter_code](https://github.com/googlecodelabs/android-testing/tree/starter_code)
+* [starter_code (where I'm doing practicals)](https://github.com/googlecodelabs/android-testing/tree/starter_code)
 * [end_codelab_1](https://github.com/googlecodelabs/android-testing/tree/end_codelab_1)
 * [end_codelab_2](https://github.com/googlecodelabs/android-testing/tree/end_codelab_2)
 * [end_codelab_3](https://github.com/googlecodelabs/android-testing/tree/end_codelab_3)
